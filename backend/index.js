@@ -4,7 +4,10 @@ const config = require("../config/config");
 // config bodyParser
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+//controller
+const akeLabController = require("./router/ake-lab");
+// routes
+app.use("/akelab", akeLabController);
 //launch server
 app.listen(config.PORT, async () => {
     try{
