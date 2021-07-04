@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const config = require("../config/config");
+const config = require("./config/config");
 // config bodyParser
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
