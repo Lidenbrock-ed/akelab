@@ -8,16 +8,16 @@ const akeLab = async function(maxNumber){
             let divibleBy3 = number % 3 == 0,
                 divibleBy5 = number % 5 == 0;
             if(divibleBy3 && divibleBy5) { 
-                sequence += " AKELAB";
+                sequence += "AKELAB ";
             }
             else if(divibleBy3){ 
-                sequence += " AKE";
+                sequence += "AKE ";
             }
             else if(divibleBy5){
-                sequence += " LAB";
+                sequence += "LAB ";
             }
             else {
-                sequence += ` ${number}`;
+                sequence += `${number} `;
             }
         }
         return {
