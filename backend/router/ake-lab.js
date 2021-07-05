@@ -6,7 +6,7 @@ Router.post("/", async (req, res) => {
         const result = await akeLab(req.body.number);
         res.status(result.status).json(result.data); 
     }catch(error){
-        console.error(error.message);
+        res.status(result.status).json(result.data);
     }
 })
 
