@@ -1,4 +1,4 @@
-const {movies} = require('../store.js/database');
+const {movies} = require('../store/database');
 const config = require('../config/config');
 const autorization = async (req) =>{
     try{
