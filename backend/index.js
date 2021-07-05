@@ -7,9 +7,11 @@ app.use(express.urlencoded({ extended: true }));
 //controller
 const akeLabController = require("./router/ake-lab");
 const fibonacciController = require("./router/fibonnaci");
+const moviesControler = require('./router/movies');
 // routes
 app.use("/akelab", akeLabController);
 app.use("/fibonacci", fibonacciController);
+app.use("/movies", moviesControler);
 //launch server
 app.listen(config.PORT, async () => {
     try{
