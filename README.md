@@ -12,4 +12,4 @@ Run the project in your local enviroment running the next command in your termin
 `npm run dev`
 
 **Step 4**
-check the documentation of API in Postman just [here](https://web.postman.co/documentation/13402500-0ddf1030-f39d-43d2-ac12-e2aad10339c0/publish#url)
+check the documentation of API in Postman just [here](https://documenter.getpostman.com/view/13402500/Tzm2KyHP)
